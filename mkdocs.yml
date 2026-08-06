@@ -38,5 +38,9 @@ nav:
   - Nätverk & Infrastruktur: natverk/index.md
   - Utveckling & Kodning: utveckling/index.md
   - Grafik & Bild: grafik/index.md
+  - Webb: webb/index.md
+  - AI & Maskininlärning: ai/index.md
   - Ljud & Musik: ljud/index.md
-  - Kontor & Dokumentation: kontor/index.md
+  - Office & Produktivitet: office/index.md
+  - Säkerhet & Integritet: sakerhet/index.md
+  - Operativsystem: os/index.md
