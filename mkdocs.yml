@@ -1,0 +1,42 @@
+site_name: @tcstenungsund mjukvara
+site_description: Rekommenderad mjukvara från @tcstenungsund — fri, öppen och rättighetsrespektande
+site_url: https://tcstenungsund.github.io/mjukvara/
+repo_url: https://github.com/tcstenungsund/tcstenungsund/
+repo_name: tcstenungsund/tcstenungsund
+
+theme:
+  name: material
+  language: sv
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: purple
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.sections
+    - navigation.footer
+    - search.highlight
+    - content.action.edit
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+
+extra:
+  social:
+    - icon: fontawesome/solid/graduation-cap
+      link: https://www.stenungsund.se
+      name: Stenungsunds kommun
+
+nav:
+  - Översikt: index.md
+  - Videoredigering: video/index.md
+  - Nätverk & Infrastruktur: natverk/index.md
+  - Utveckling & Kodning: utveckling/index.md
+  - Grafik & Bild: grafik/index.md
+  - Ljud & Musik: ljud/index.md
+  - Kontor & Dokumentation: kontor/index.md
